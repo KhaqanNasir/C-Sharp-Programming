@@ -1,0 +1,7 @@
+D:\C# Programs\C Sharp Programs\C Sharp Programs\bin\Debug\C Sharp Programs.exe.config
+D:\C# Programs\C Sharp Programs\C Sharp Programs\bin\Debug\C Sharp Programs.exe
+D:\C# Programs\C Sharp Programs\C Sharp Programs\bin\Debug\C Sharp Programs.pdb
+D:\C# Programs\C Sharp Programs\C Sharp Programs\obj\Debug\C Sharp Programs.csproj.AssemblyReference.cache
+D:\C# Programs\C Sharp Programs\C Sharp Programs\obj\Debug\C Sharp Programs.csproj.CoreCompileInputs.cache
+D:\C# Programs\C Sharp Programs\C Sharp Programs\obj\Debug\C Sharp Programs.exe
+D:\C# Programs\C Sharp Programs\C Sharp Programs\obj\Debug\C Sharp Programs.pdb
