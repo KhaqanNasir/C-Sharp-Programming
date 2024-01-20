@@ -1,4 +1,5 @@
 ﻿using System;
+namespace C_Sharp_Programs{
 class Destructor
 {
     int a;
@@ -26,6 +27,6 @@ class Destructor
 
         Console.Read();   // for hold the screen
 
-
+    }
     }
 }
