@@ -2,14 +2,18 @@
 
 namespace C_Sharp_Programs
 {  
-   public class student    // One Class parent / Base Class
+
+    public class University       // One Class parent / Base Class
     {
+        public static string uniName = "COMSATS";
+    }
+   public class student : University {   // second Class Child / Derived Class
         public int id ;
         public string name ;
      
         
     }
-       public class Topper : student {    // second Class Child / Derived Class
+       public class Topper : student {    // third Class Child / Derived Class
 
         public float gpa;
         public string department ;
@@ -18,6 +22,7 @@ namespace C_Sharp_Programs
         {
             static void Main(string[] args)
             {
+            Console.WriteLine("Show the EXAMPLE of MULTI-LEVEL INHERITENCE\n");
             
              Topper t1 = new Topper();
 
@@ -30,6 +35,8 @@ namespace C_Sharp_Programs
             Console.WriteLine(t1.name);
             Console.WriteLine(t1.department);
             Console.WriteLine(t1.gpa);
+            Console.WriteLine(Topper.uniName);
+
 
                 Console.Read();   // for hold the screen
             }
