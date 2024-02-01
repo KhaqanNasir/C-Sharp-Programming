@@ -34,7 +34,7 @@ namespace A
             checked
             {
                 int num1 = int.MaxValue;
-            //    Console.WriteLine(num1 + 2);        //System.OverflowException: 'Arithmetic operation resulted in an overflow.'
+            //    Console.WriteLine(num1 + 2);        // System.OverflowException: 'Arithmetic operation resulted in an overflow.'
             }
             unchecked
             {
@@ -54,6 +54,15 @@ namespace A
                 Console.WriteLine(e);
             }
             finally { Console.WriteLine(num); }
+
+            try
+            {
+                int[] arr = new int[5];
+                arr[7] = 6;
+            }
+            catch (SystemException e){
+                Console.WriteLine(e);
+            }
          
             Console.Read();   // for hold the screen
             }
